@@ -1,0 +1,124 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-color: lightgray;
+}
+h1,h2,h3,h4,h5{
+	font-weight: bold;
+}
+a:hover{
+	text-decoration: none;
+}
+.col{
+	background-color: white;
+}
+.navbar-inverse{
+	border-radius:0px;
+	border: 0px;
+}
+.navbar-inverse .navbar-brand{
+	color: white;
+	font-weight: bold;
+}
+.banner {
+	margin-top: -20px;
+    background-image:url("images/banner.png");
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: ;
+}
+.left-col>.col{
+	padding: 10px;
+}
+.left-col{
+	padding: ;
+	position: relative;
+	top: -100px;
+}
+.right-col{
+	margin-top: 10px;
+}
+.table>tbody>tr>td{
+	border:0px;
+}
+.right-col1 .border-tb>tbody>tr>td{
+	border-bottom: 1px solid lightgray;
+}
+.right-col2{
+	padding: 10px;
+	border-left:1px solid lightgray;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+	background-color: #6DEE64;
+	color: white;
+}
+.nav-tabs>li>a{
+	padding: 7px;
+	border-radius:7px 7px 0px 0px;
+}
+.btn-maroon{
+	background-color: maroon;
+	color: white;
+}
+.btn-green{
+	background-color: #6DEE64;
+	border: 0px;
+}
+.fa-google-plus-square{
+	color: red;
+}
+.fa-facebook-square{
+	color: blue;
+}
+.fa-twitter-square{
+	color: skyblue;
+}
+
+
+
+@media screen and (max-width: 480px) {
+	h1,h2,h3,h4,h5{
+		font-weight: bold;
+		text-align: center;
+	}
+	.banner {
+		margin-top: -20px;
+	    background-image:url("images/banner.png");
+	    height: 150px;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    position: ;
+	}
+    .left-col {
+	    padding: ;
+	    position: relative;
+	    top: 10px;
+	}
+	.right-col2{
+		padding: 10px;
+		border-left:0px;
+		text-align: center;
+	}
+	.right-col2 .img{
+
+	}
+	.nav-tabs>li>a{
+		padding:7px 25px;
+	}
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  h1,h2,h3,h4,h5{
+		font-weight: bold;
+		text-align: center;
+	}
+  .left-col {
+	    padding: ;
+	    position: relative;
+	    top: 10px;
+	}
+	.nav-tabs>li>a{
+		padding:7px 35px;
+	}
+}
